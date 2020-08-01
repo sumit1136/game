@@ -104,9 +104,48 @@ $(document).ready(function(){
                 $('.'+get_name).attr("data-position", nameArr[0]+'.'+nameArr[1]);
             }
 
-            else if(get_position == "1.2" && ((nameArr[0] == "1" && (nameArr[1] == "1" || nameArr[1] == "3")) || nameArr[1] == "2" && (nameArr[0] == "0" || nameArr[0] == "3"))){
+            else if(get_position == "1.2" && ((nameArr[0] == "1" && (nameArr[1] == "1" || nameArr[1] == "3")) || nameArr[1] == "2" && (nameArr[0] == "0" || nameArr[0] == "2"))){
                 $('.'+get_name).css({'top':nameArr[0]*100-5+'px', 'left':nameArr[1]*100-5+'px'});
                 $('.'+get_name).attr("data-position", nameArr[0]+'.'+nameArr[1]);
+            }
+
+            else if(get_position == "2.1" && ((nameArr[0] == "2" && (nameArr[1] == "0" || nameArr[1] == "2")) || nameArr[1] == "1" && (nameArr[0] == "1" || nameArr[0] == "3"))){
+                $('.'+get_name).css({'top':nameArr[0]*100-5+'px', 'left':nameArr[1]*100-5+'px'});
+                $('.'+get_name).attr("data-position", nameArr[0]+'.'+nameArr[1]);
+            }
+
+            else if(get_position == "2.3" && ((nameArr[0] == "2" && (nameArr[1] == "2" || nameArr[1] == "4")) || nameArr[1] == "3" && (nameArr[0] == "1" || nameArr[0] == "3"))){
+                $('.'+get_name).css({'top':nameArr[0]*100-5+'px', 'left':nameArr[1]*100-5+'px'});
+                $('.'+get_name).attr("data-position", nameArr[0]+'.'+nameArr[1]);
+            }
+
+            else if(get_position == "3.2" && ((nameArr[0] == "3" && (nameArr[1] == "1" || nameArr[1] == "3")) || nameArr[1] == "2" && (nameArr[0] == "2" || nameArr[0] == "4"))){
+                $('.'+get_name).css({'top':nameArr[0]*100-5+'px', 'left':nameArr[1]*100-5+'px'});
+                $('.'+get_name).attr("data-position", nameArr[0]+'.'+nameArr[1]);
+            }
+
+            else if(get_position == "0.2" && ((nameArr[0] == "0" && (nameArr[1] == "1" || nameArr[1] == "3")) || nameArr[0] == "1" && (nameArr[1] == "1" || nameArr[1] == "2" || nameArr[1] == "3"))){
+                $('.'+get_name).css({'top':nameArr[0]*100-5+'px', 'left':nameArr[1]*100-5+'px'});
+                $('.'+get_name).attr("data-position", nameArr[0]+'.'+nameArr[1]);
+            }
+
+            else if(get_position == "2.0" && ((nameArr[1] == "0" && (nameArr[0] == "1" || nameArr[0] == "3")) || nameArr[1] == "1" && (nameArr[0] == "1" || nameArr[0] == "2" || nameArr[0] == "3"))){
+                $('.'+get_name).css({'top':nameArr[0]*100-5+'px', 'left':nameArr[1]*100-5+'px'});
+                $('.'+get_name).attr("data-position", nameArr[0]+'.'+nameArr[1]);
+            }
+
+            else if(get_position == "2.4" && ((nameArr[1] == "4" && (nameArr[0] == "1" || nameArr[0] == "3")) || nameArr[1] == "3" && (nameArr[0] == "1" || nameArr[0] == "2" || nameArr[0] == "3"))){
+                $('.'+get_name).css({'top':nameArr[0]*100-5+'px', 'left':nameArr[1]*100-5+'px'});
+                $('.'+get_name).attr("data-position", nameArr[0]+'.'+nameArr[1]);
+            }
+
+            else if(get_position == "4.2" && ((nameArr[0] == "4" && (nameArr[1] == "1" || nameArr[1] == "3")) || nameArr[0] == "3" && (nameArr[1] == "1" || nameArr[1] == "2" || nameArr[1] == "3"))){
+                $('.'+get_name).css({'top':nameArr[0]*100-5+'px', 'left':nameArr[1]*100-5+'px'});
+                $('.'+get_name).attr("data-position", nameArr[0]+'.'+nameArr[1]);
+            }
+
+            else{
+                alert("Wrong move");
             }
         }
         
