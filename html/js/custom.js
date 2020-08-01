@@ -161,10 +161,15 @@ $(document).ready(function(){
             var delPos=[(parseInt(get_position1.toString().split('.')[0])+parseInt(nameArr[0]))/2,(parseInt(get_position1.toString().split('.')[1])+parseInt(nameArr[1]))/2];
         // console.log(delPos);
         var ss = delPos[0]+'.'+delPos[1];
+        var ss1 = $("[data-position='"+ss+"']")[1];
+        // console.log($(ss1).attr('class').split(' ')[0]);
         if(get_name == "tiger1" || get_name == "tiger2"){
             try{
-                var ddddd = $("[data-position='"+ss+"']")[1].remove();
-                console.log("Del "+ss);
+                if($(ss1).attr('class').split(' ')[0] == "goat"){
+                    var ddddd = $("[data-position='"+ss+"']")[1].remove();
+                    console.log("Del "+ss);
+                }
+                
             }
             catch(err) {
                 // break;
