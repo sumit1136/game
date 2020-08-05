@@ -85,22 +85,22 @@ $(document).ready(function(){
                 $('.'+get_name).attr("data-position", nameArr[0]+'.'+nameArr[1]);
             }
 
-            else if(get_position1 == "0.0" && ((nameArr[0] == "0" && nameArr[1] == "1") || (nameArr[0] == "1" && (nameArr[1] == "0" || nameArr[1] == "1")) || (nameArr[0] == "2" && (nameArr[1] == "2" && $(ss1).attr('class').split(' ')[0] == "goat")))){
+            else if(get_position1 == "0.0" && ((nameArr[0] == "0" && (nameArr[1] == "1" || (nameArr[1] == "2" && $(ss1).attr('class').split(' ')[0] == "goat"))) || (nameArr[0] == "1" && (nameArr[1] == "0" || nameArr[1] == "1")) || (nameArr[0] == "2" && ((nameArr[1] == "2" || nameArr[1] == "0") && $(ss1).attr('class').split(' ')[0] == "goat")))){
                 $('.'+get_name).css({'top':nameArr[0]*100-5+'px', 'left':nameArr[1]*100-5+'px'});
                 $('.'+get_name).attr("data-position", nameArr[0]+'.'+nameArr[1]);
             }
 
-            else if(get_position1 == "0.4" && ((nameArr[0] == "0" && nameArr[1] == "3") || (nameArr[0] == "1" && (nameArr[1] == "3" || nameArr[1] == "4")) || (nameArr[0] == "2" && (nameArr[1] == "2" && $(ss1).attr('class').split(' ')[0] == "goat")))){
+            else if(get_position1 == "0.4" && ((nameArr[0] == "0" && (nameArr[1] == "3" || (nameArr[1] == "2" && $(ss1).attr('class').split(' ')[0] == "goat"))) || (nameArr[0] == "1" && (nameArr[1] == "3" || nameArr[1] == "4")) || (nameArr[0] == "2" && ((nameArr[1] == "2" || nameArr[1] == "4") && $(ss1).attr('class').split(' ')[0] == "goat")))){
                 $('.'+get_name).css({'top':nameArr[0]*100-5+'px', 'left':nameArr[1]*100-5+'px'});
                 $('.'+get_name).attr("data-position", nameArr[0]+'.'+nameArr[1]);
             }
 
-            else if(get_position1 == "4.0" && ((nameArr[0] == "4" && nameArr[1] == "1") || (nameArr[0] == "3" && (nameArr[1] == "0" || nameArr[1] == "1")) || (nameArr[0] == "2" && (nameArr[1] == "2" && $(ss1).attr('class').split(' ')[0] == "goat")))){
+            else if(get_position1 == "4.0" && ((nameArr[0] == "4" && nameArr[1] == "1" || (nameArr[1] == "2" && $(ss1).attr('class').split(' ')[0] == "goat")) || (nameArr[0] == "3" && (nameArr[1] == "0" || nameArr[1] == "1")) || (nameArr[0] == "2" && ((nameArr[1] == "2" || nameArr[1] == "0") && $(ss1).attr('class').split(' ')[0] == "goat")))){
                 $('.'+get_name).css({'top':nameArr[0]*100-5+'px', 'left':nameArr[1]*100-5+'px'});
                 $('.'+get_name).attr("data-position", nameArr[0]+'.'+nameArr[1]);
             }
 
-            else if(get_position1 == "4.4" && ((nameArr[0] == "3" && nameArr[1] == "4") || (nameArr[1] == "3" && (nameArr[0] == "3" || nameArr[0] == "4")) || (nameArr[0] == "2" && (nameArr[1] == "2" && $(ss1).attr('class').split(' ')[0] == "goat")))){
+            else if(get_position1 == "4.4" && ((nameArr[0] == "3" && (nameArr[1] == "4" || nameArr[1] == "3")) || (nameArr[0] == "4" && (nameArr[1] == "3" || (nameArr[1] == "2" && $(ss1).attr('class').split(' ')[0] == "goat"))) || (nameArr[0] == "2" && ((nameArr[1] == "2" || nameArr[1] == "4") && $(ss1).attr('class').split(' ')[0] == "goat")))){
                 $('.'+get_name).css({'top':nameArr[0]*100-5+'px', 'left':nameArr[1]*100-5+'px'});
                 $('.'+get_name).attr("data-position", nameArr[0]+'.'+nameArr[1]);
             }
@@ -165,22 +165,22 @@ $(document).ready(function(){
                 $('.'+get_name).attr("data-position", nameArr[0]+'.'+nameArr[1]);
             }
 
-            else if(get_position1 == "0.2" && ((nameArr[0] == "0" && (nameArr[1] == "1" || nameArr[1] == "3")) || nameArr[0] == "1" && (nameArr[1] == "1" || nameArr[1] == "2" || nameArr[1] == "3") || (nameArr[0] == "2" && ((nameArr[1] == "0" || nameArr[1] == "4" || nameArr[1] == "2") && $(ss1).attr('class').split(' ')[0] == "goat")))){
+            else if(get_position1 == "0.2" && ((nameArr[0] == "0" && (nameArr[1] == "1" || nameArr[1] == "3" || (nameArr[1] == "0" || nameArr[1] == "4") && $(ss1).attr('class').split(' ')[0] == "goat")) || nameArr[0] == "1" && (nameArr[1] == "1" || nameArr[1] == "2" || nameArr[1] == "3") || (nameArr[0] == "2" && ((nameArr[1] == "0" || nameArr[1] == "4" || nameArr[1] == "2") && $(ss1).attr('class').split(' ')[0] == "goat")))){
                 $('.'+get_name).css({'top':nameArr[0]*100-5+'px', 'left':nameArr[1]*100-5+'px'});
                 $('.'+get_name).attr("data-position", nameArr[0]+'.'+nameArr[1]);
             }
 
-            else if(get_position1 == "2.0" && ((nameArr[1] == "0" && (nameArr[0] == "1" || nameArr[0] == "3")) || nameArr[1] == "1" && (nameArr[0] == "1" || nameArr[0] == "2" || nameArr[0] == "3"))){
+            else if(get_position1 == "2.0" && ((nameArr[1] == "0" && (nameArr[0] == "1" || nameArr[0] == "3" || (nameArr[0] == "0" || nameArr[0] == "4") && $(ss1).attr('class').split(' ')[0] == "goat")) || nameArr[1] == "1" && (nameArr[0] == "1" || nameArr[0] == "2" || nameArr[0] == "3") || (nameArr[1] == "2" && ((nameArr[0] == "0" || nameArr[0] == "4" || nameArr[0] == "2") && $(ss1).attr('class').split(' ')[0] == "goat")))){
                 $('.'+get_name).css({'top':nameArr[0]*100-5+'px', 'left':nameArr[1]*100-5+'px'});
                 $('.'+get_name).attr("data-position", nameArr[0]+'.'+nameArr[1]);
             }
 
-            else if(get_position1 == "2.4" && ((nameArr[1] == "4" && (nameArr[0] == "1" || nameArr[0] == "3")) || nameArr[1] == "3" && (nameArr[0] == "1" || nameArr[0] == "2" || nameArr[0] == "3"))){
+            else if(get_position1 == "2.4" && ((nameArr[1] == "4" && (nameArr[0] == "1" || nameArr[0] == "3" || ((nameArr[0] == "0" || nameArr[0] == "4") && $(ss1).attr('class').split(' ')[0] == "goat"))) || nameArr[1] == "3" && (nameArr[0] == "1" || nameArr[0] == "2" || nameArr[0] == "3") || (nameArr[1] == "2" && ((nameArr[0] == "0" || nameArr[0] == "4" || nameArr[0] == "2") && $(ss1).attr('class').split(' ')[0] == "goat")))){
                 $('.'+get_name).css({'top':nameArr[0]*100-5+'px', 'left':nameArr[1]*100-5+'px'});
                 $('.'+get_name).attr("data-position", nameArr[0]+'.'+nameArr[1]);
             }
 
-            else if(get_position1 == "4.2" && ((nameArr[0] == "4" && (nameArr[1] == "1" || nameArr[1] == "3")) || nameArr[0] == "3" && (nameArr[1] == "1" || nameArr[1] == "2" || nameArr[1] == "3") || (nameArr[0] == "2" && ((nameArr[1] == "0" || nameArr[1] == "4" || nameArr[1] == "2") && $(ss1).attr('class').split(' ')[0] == "goat")))){
+            else if(get_position1 == "4.2" && ((nameArr[0] == "4" && (nameArr[1] == "1" || nameArr[1] == "3" || ((nameArr[1] == "0" || nameArr[1] == "4") && $(ss1).attr('class').split(' ')[0] == "goat"))) || nameArr[0] == "3" && (nameArr[1] == "1" || nameArr[1] == "2" || nameArr[1] == "3") || (nameArr[0] == "2" && ((nameArr[1] == "0" || nameArr[1] == "4" || nameArr[1] == "2") && $(ss1).attr('class').split(' ')[0] == "goat")))){
                 $('.'+get_name).css({'top':nameArr[0]*100-5+'px', 'left':nameArr[1]*100-5+'px'});
                 $('.'+get_name).attr("data-position", nameArr[0]+'.'+nameArr[1]);
             }
