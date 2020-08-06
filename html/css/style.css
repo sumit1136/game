@@ -49,16 +49,99 @@
     border-radius: 10px;
     transition: all 0.3s;
 }
+.goat.goat1{
+    left: 107px;
+    top: 95px;
+}
+
+.goat.goat2{
+    left: 98.7px;
+    top: 83.5px;
+}
+.goat.goat4{
+    left: 85.3px;
+    top: 102px;
+}
+.goat.goat3{
+    left: 85.3px;
+    top: 88px;
+}
+.goat.goat5{
+    left: 98.7px;
+    top: 106.4px;
+}
 .goat.type2{
     left: 295px;
+}
+.goat.goat7{
+    left: 307px;
+    top: 95px;
+}
+.goat.goat8{
+    left: 298.7px;
+    top: 83.5px;
+}
+.goat.goat9{
+    left: 285.3px;
+    top: 102px;
+}
+.goat.goat10{
+    left: 285.3px;
+    top: 88px;
+}
+.goat.goat11{
+    left: 298.7px;
+    top: 106.4px;
 }
 .goat.type3{
     left: 95px;
     top: 295px;
 }
+.goat.goat13{
+    left: 107px;
+    top: 295px;
+}
+
+.goat.goat14{
+    left: 98.7px;
+    top: 283.5px;
+}
+.goat.goat15{
+    left: 85.3px;
+    top: 302px;
+}
+.goat.goat16{
+    left: 85.3px;
+    top: 288px;
+}
+.goat.goat17{
+    left: 98.7px;
+    top: 306.4px;
+}
 .goat.type4{
     left: 295px;
     top: 295px;
+}
+.goat.goat19{
+    left: 307px;
+    top: 295px;
+}
+
+.goat.goat20{
+    left: 298.7px;
+    top: 283.5px;
+}
+.goat.goat21{
+    left: 285.3px;
+    top: 302px;
+}
+.goat.goat22{
+    left: 285.3px;
+    top: 288px;
+}
+.goat.goat23{
+    left: 298.7px;
+    top: 306.4px;
 }
 
 .tiger{
